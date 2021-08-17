@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Personal data form</title>
+</head>
+
+<body>
+  <fieldset>
+
+    <body style="background-color:skyblue;">
+      <div align="center">
+        <h1>Personal Details</h1>
+      </div>
+      <div align="center">
+        <form class="Name" action="index.html" method="post">
+          <label>Name:</label>
+          <input type="Name" name="" value="">
+          <br>
+          <br>
+          <label>Password:</label>
+          <input type="password" name="" value="">
+          <br>
+          <br>
+          <label>Email-ID:</label>
+          <input id="emailAddress" type="email">
+          <br>
+          <br>
+          <h3>Gender:</h3>
+          <input type="radio" name="gender" value="male"> Male
+          <input type="radio" name="gender" value="female"> female
+          <input type="radio" name="gender" value="other"> other
+          <br>
+          <h3>Contact No:</h3>
+          <input type="number" name="" value="">
+          <br>
+          <h1>Educational Qualification</h1>
+          <p>Degree:</p>
+          <form>
+            <select name="dropdown">
+              <option value="Bachelor of engineering" selected>Bachelor of engineering</option>
+              <option value="MBA">MBA</option>
+              <option value="BSC">BSC</option>
+            </select>
+          </form>
+          <p>Engineering</p>
+          <form>
+            <select name="dropdown">
+              <option value="Computer science" selected>Computer science</option>
+              <option value="Mechanical engineering">Mechanical engineering</option>
+              <option value="Civil engineering">Civil engineering</option>
+            </select>
+          </form>
+          <br>
+          <h1>Address</h1>
+          <textarea name="Address" rows="8" cols="80"></textarea>
+          <br>
+          <button type="submit" form="form1" value="Submit">Submit</button>
+        </form>
+      </div>
+  </fieldset>
+</body>
+
+</html>
